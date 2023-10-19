@@ -13,22 +13,35 @@
         }
 
         h1 {
-            position: absolute;
             color: white;
-            font-family: monospace;
-            bottom: 22px;
-            right: 22px;
             margin: 0px;
             letter-spacing: 2px;
         }
+
         span {
+            color: white;
+            margin-right: 2px;
+        }
+
+        h1 span {
             color: red;
+            margin: 0px !important;
+        }
+
+        div {
+            position: fixed;
+            bottom: 22px;
+            right: 22px;
+            display: flex;
+            font-family: monospace;
+            align-items: center;
         }
     </style>
 </head>
 <body>
 <script src="circle.js"></script>
 <script src="sketch.js"></script>
-<h1><span>D</span>yooreen</h1>
+<div><span>author :</span>
+    <h1><span>D</span>yooreen</h1></div>
 </body>
 </html>
